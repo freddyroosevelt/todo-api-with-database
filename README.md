@@ -11,7 +11,10 @@
 ####4. Filter a Todo Completed item with the GET /todos?completed=true or false input.
 ####5. Search by a Todo Description with the (eg:) GET /todos?q=work or with GET /todos?q=work&completed=false.
 
-#####Getting Started: First run: npm install for all node modules needed.
+#####Getting Started: First run: 
+    1. npm install (for all node modules needed)
+    2. Then to run app from command line/terminal: node server.js
+    3. Open up Postman and add new Todo items etc. 
 
 #####The npm installs for Heroku (included, just run npm install once)
     1. heroku addons - heroku-postgressql
